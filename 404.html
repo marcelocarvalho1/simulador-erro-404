@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>404 Not Found</title>
+  </head>
+  <body>
+    <div class="container">
+      <p>Oops! Página não encontrada.</p>
+      <img src="/imagem/404.png" alt="Imagem Error-404" />
+    </div>
+    <script>
+      if (performance.navigation.type === performance.navigation.TYPE_RELOAD) {
+        window.location.href = "/index.html";
+      }
+    </script>
+  </body>
+</html>
